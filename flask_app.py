@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def consignes():
-    return render_template("consignes.html")
+    return render_template("dashboard.html")
 
 @app.get("/run")
 def run():
